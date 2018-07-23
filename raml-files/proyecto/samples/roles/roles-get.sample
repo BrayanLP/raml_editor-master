@@ -1,0 +1,89 @@
+{
+    "results": [
+        {
+            "updated": null,
+            "description": "Administrador general del backoffice",
+            "name": "Administrador",
+            "created": null,
+            "id": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "slug": "admin"
+        },
+        {
+            "updated": null,
+            "description": "Solo permite visualizar el módulo de dominios",
+            "name": "Consultor de dominios",
+            "created": "2017-12-27T10:37:35Z",
+            "id": "1e14cb57-a45a-42f5-b509-ef0f2de002cd",
+            "slug": "domain-view"
+        },
+        {
+            "updated": null,
+            "description": "Permite administrar todo el módulo de dominios",
+            "name": "Gestor de dominios",
+            "created": "2017-12-27T10:37:10Z",
+            "id": "f9c7b9ec-d993-4de4-86ee-cb11cd381927",
+            "slug": "domain-admin"
+        },
+        {
+            "updated": null,
+            "description": "Consultor de facturación",
+            "name": "Consultor de facturación",
+            "created": "2017-12-20T17:42:58Z",
+            "id": "4ca0b221-d99c-4b27-91ba-afd793c57de2",
+            "slug": "consultor-fact"
+        },
+        {
+            "updated": "2017-12-13T11:39:00Z",
+            "description": "Permite crear notas de crédito y débito.",
+            "name": "Gestor de facturación",
+            "created": "2017-12-13T11:38:41Z",
+            "id": "5dcb3481-593f-4aa0-967d-00ab297b7b37",
+            "slug": "gestor-fact"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Emisión Electrónica",
+            "created": "2017-12-04T15:16:41Z",
+            "id": "6fb2d213-1a72-43e4-a638-4734fe22af8c",
+            "slug": "electronic-invoicer"
+        },
+        {
+            "updated": "2017-11-14T15:23:42Z",
+            "description": "Solo permite visualizar el módulo de cpanel",
+            "name": "Consultor de cpanel",
+            "created": "2017-11-14T15:23:32Z",
+            "id": "91c283ec-9243-46d7-b6f5-53182e34265e",
+            "slug": "cpanel-view"
+        },
+        {
+            "updated": "2017-11-30T12:36:58Z",
+            "description": "Permite administrar todo el módulo de cpanel",
+            "name": "Gestor de cpanel",
+            "created": "2017-11-14T15:18:15Z",
+            "id": "6e591714-8570-4fde-b356-5afdd0f8a780",
+            "slug": "cpanel-admin"
+        },
+        {
+            "updated": "2017-11-14T15:14:56Z",
+            "description": "Solo permite visualizar el módulo de ordenes y suscripciones",
+            "name": "Consultor de ventas",
+            "created": "2017-11-14T15:14:36Z",
+            "id": "74778bf7-77a1-4167-881f-5aeeec534c73",
+            "slug": "sales-view"
+        },
+        {
+            "updated": "2017-11-14T15:14:18Z",
+            "description": "Permite administrar todo el módulo de ordenes y suscripciones",
+            "name": "Gestor de ventas",
+            "created": "2017-11-14T15:12:37Z",
+            "id": "c2c4209e-327d-4607-920d-d7a6de6c797b",
+            "slug": "sales-admin"
+        }
+    ],
+    "metadata": {
+        "count": 14,
+        "limit": 10,
+        "offset": 0
+    }
+}

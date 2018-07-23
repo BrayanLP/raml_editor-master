@@ -1,0 +1,89 @@
+{
+    "results": [
+        {
+            "updated": "2017-10-31T10:35:58Z",
+            "actionId": "5bc58cb5-c174-4e11-a5ee-98603d3d16cb",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "835a2db0-61e5-4b76-a442-bbf82fa22b33",
+            "id": "04a2f4b0-64af-41a1-b0c2-5f1f090b170a",
+            "name": "Listar suscripciones"
+        },
+        {
+            "updated": null,
+            "actionId": "845b46f5-c092-4a42-9672-5aa2c86dbf0f",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "86cd28e0-c41c-4747-8250-074a26ebf968",
+            "id": "d409a78f-3a17-402b-b86e-23582c82cf8c",
+            "name": "Obtener módulos"
+        },
+        {
+            "updated": null,
+            "actionId": "15c6a447-381e-4532-adfa-080b5332b7a3",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "86cd28e0-c41c-4747-8250-074a26ebf968",
+            "id": "a8199912-c718-458f-87a6-2a980189db1f",
+            "name": "Editar módulos"
+        },
+        {
+            "updated": null,
+            "actionId": "ee149e05-d515-46cc-80bb-a0e181af1579",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "86cd28e0-c41c-4747-8250-074a26ebf968",
+            "id": "e3158672-3def-4614-97f8-dfe4048bfb92",
+            "name": "Eliminar modulos"
+        },
+        {
+            "updated": null,
+            "actionId": "aabbb535-fbc4-4545-a90f-5f3969650de2",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "86cd28e0-c41c-4747-8250-074a26ebf968",
+            "id": "2e92e90c-3044-47cd-a8e3-48bad847b60a",
+            "name": "Crear módulos"
+        },
+        {
+            "updated": null,
+            "actionId": "845b46f5-c092-4a42-9672-5aa2c86dbf0f",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "caf4a6c9-8fa0-4e17-a03b-f30ed0d8f3ad",
+            "id": "965fc11b-1d9e-463f-b6ca-c07978549a84",
+            "name": "Obtener accciones"
+        },
+        {
+            "updated": null,
+            "actionId": "15c6a447-381e-4532-adfa-080b5332b7a3",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "caf4a6c9-8fa0-4e17-a03b-f30ed0d8f3ad",
+            "id": "2334c037-a49c-44ae-be2e-5e53a3d8b39c",
+            "name": "Editar acciones"
+        },
+        {
+            "updated": null,
+            "actionId": "ee149e05-d515-46cc-80bb-a0e181af1579",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "caf4a6c9-8fa0-4e17-a03b-f30ed0d8f3ad",
+            "id": "7ac9ba87-ef5d-42bb-93d4-e894a8036d6c",
+            "name": "Eliminar acciones"
+        },
+        {
+            "updated": null,
+            "actionId": "aabbb535-fbc4-4545-a90f-5f3969650de2",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "caf4a6c9-8fa0-4e17-a03b-f30ed0d8f3ad",
+            "id": "560ba858-fba4-4ee4-b37a-74b7bb332765",
+            "name": "Crear acciones"
+        },
+        {
+            "updated": null,
+            "actionId": "15c6a447-381e-4532-adfa-080b5332b7a3",
+            "created": "2018-07-17T14:54:36Z",
+            "moduleId": "e6d96093-2433-44ba-a9c4-a027ab3389aa",
+            "id": "2be135c8-4f52-4879-83de-5ced08309ca4",
+            "name": "Editar permisos"
+        }
+    ],
+    "metadata": {
+        "count": 276,
+        "limit": 10,
+        "offset": 0
+    }
+}

@@ -1,0 +1,487 @@
+{
+    "token": {
+        "iss": "backoffice",
+        "scopes": {
+            "module-sites": {},
+            "module-billing": {
+                "billing-physicalemissions": [
+                    "list",
+                    "get",
+                    "create"
+                ],
+                "billing-debitnotes": [
+                    "list",
+                    "get",
+                    "create",
+                    "module"
+                ],
+                "billing-creditnotes": [
+                    "get",
+                    "create",
+                    "list",
+                    "module"
+                ],
+                "billing-emissionstations": [
+                    "update",
+                    "list",
+                    "delete",
+                    "create",
+                    "get",
+                    "module"
+                ],
+                "billing-correlatives": [
+                    "list",
+                    "delete",
+                    "update",
+                    "create",
+                    "get",
+                    "module"
+                ],
+                "billing-paymentdocs": [
+                    "list",
+                    "create",
+                    "get",
+                    "module"
+                ]
+            },
+            "module-postventa": {
+                "postventa-indicators": [
+                    "list",
+                    "module"
+                ],
+                "postventa-reports": [
+                    "list",
+                    "update",
+                    "create",
+                    "module"
+                ],
+                "postventa-maintenances": [
+                    "list",
+                    "update",
+                    "delete",
+                    "create",
+                    "module"
+                ]
+            },
+            "module-security": {
+                "security-roles": [
+                    "list",
+                    "get",
+                    "delete",
+                    "update",
+                    "create",
+                    "module"
+                ],
+                "security-actions": [
+                    "list",
+                    "get",
+                    "create",
+                    "update",
+                    "delete",
+                    "module"
+                ],
+                "security-users": [
+                    "list",
+                    "update",
+                    "create",
+                    "get",
+                    "delete",
+                    "module"
+                ],
+                "security-positions": [
+                    "list",
+                    "get",
+                    "delete",
+                    "create",
+                    "update",
+                    "module"
+                ],
+                "security-permissions": [
+                    "list",
+                    "get",
+                    "delete",
+                    "update",
+                    "create",
+                    "module"
+                ],
+                "security-modules": [
+                    "list",
+                    "create",
+                    "delete",
+                    "get",
+                    "update",
+                    "module"
+                ]
+            },
+            "module-marketing": {
+                "marketing-offers": [
+                    "update",
+                    "get",
+                    "create",
+                    "delete",
+                    "list",
+                    "module"
+                ],
+                "marketing-promotionalcodes": [
+                    "list",
+                    "get",
+                    "create",
+                    "delete",
+                    "update",
+                    "module"
+                ],
+                "marketing-operations": [
+                    "get",
+                    "delete",
+                    "update",
+                    "create",
+                    "list"
+                ],
+                "marketing-promotionalcode-translate": [
+                    "get",
+                    "delete",
+                    "list",
+                    "create",
+                    "update"
+                ],
+                "marketing-products": [
+                    "list",
+                    "update",
+                    "get",
+                    "create",
+                    "delete",
+                    "module"
+                ],
+                "marketing-periodicities": [
+                    "create",
+                    "list",
+                    "get",
+                    "update",
+                    "delete"
+                ],
+                "marketing-currencies": [
+                    "list",
+                    "update",
+                    "get",
+                    "delete",
+                    "create"
+                ],
+                "marketing-promotionalcode-use": [
+                    "list",
+                    "get"
+                ],
+                "marketing-offer-translate": [
+                    "get",
+                    "delete",
+                    "update",
+                    "create",
+                    "list"
+                ],
+                "marketing-periods": [
+                    "get",
+                    "delete",
+                    "list",
+                    "create",
+                    "update"
+                ],
+                "marketing-product-countries": [
+                    "delete",
+                    "get",
+                    "list",
+                    "create",
+                    "update"
+                ],
+                "marketing-package-translate": [
+                    "delete",
+                    "list",
+                    "create",
+                    "get",
+                    "update"
+                ],
+                "marketing-packages": [
+                    "list",
+                    "get",
+                    "update",
+                    "delete",
+                    "create",
+                    "module"
+                ],
+                "marketing-product-prices": [
+                    "get",
+                    "update",
+                    "list",
+                    "delete",
+                    "create"
+                ],
+                "marketing-product-translate": [
+                    "get",
+                    "delete",
+                    "update",
+                    "create",
+                    "list"
+                ]
+            },
+            "module-charges": {
+                "charge-paystations": [
+                    "create",
+                    "list",
+                    "delete",
+                    "get",
+                    "update",
+                    "module"
+                ],
+                "charge-exchange": [
+                    "create",
+                    "list",
+                    "update",
+                    "get",
+                    "module"
+                ],
+                "charge-maincharges": [
+                    "list",
+                    "module",
+                    "get",
+                    "create"
+                ],
+                "charge-charges": [
+                    "list",
+                    "create",
+                    "delete"
+                ]
+            },
+            "module-payments": {},
+            "module-interactions": {
+                "interactions-reports": [
+                    "get",
+                    "list"
+                ],
+                "interaction-maintenance": [
+                    "list",
+                    "create",
+                    "update",
+                    "delete",
+                    "get"
+                ],
+                "interaction-interactions": [
+                    "delete",
+                    "update",
+                    "create",
+                    "get",
+                    "list"
+                ]
+            },
+            "module-sales": {
+                "sales-subscriptions": [
+                    "list",
+                    "get",
+                    "delete",
+                    "update",
+                    "create",
+                    "module"
+                ],
+                "sales-contacts": [
+                    "get",
+                    "update",
+                    "delete",
+                    "create",
+                    "list"
+                ],
+                "sales-address": [
+                    "delete",
+                    "update",
+                    "list",
+                    "get",
+                    "create"
+                ],
+                "sales-orders": [
+                    "list",
+                    "update",
+                    "get",
+                    "delete",
+                    "create",
+                    "module"
+                ],
+                "sales-customers": [
+                    "list",
+                    "create",
+                    "update",
+                    "delete",
+                    "get",
+                    "module"
+                ]
+            },
+            "module-reports": {},
+            "module-preventa": {
+                "preventa-reports": [
+                    "list",
+                    "update",
+                    "create",
+                    "module"
+                ],
+                "preventa-indicators": [
+                    "list",
+                    "module"
+                ],
+                "preventa-maintenances": [
+                    "list",
+                    "delete",
+                    "create",
+                    "update",
+                    "module"
+                ]
+            },
+            "module-domains": {
+                "domain-tlds": [
+                    "list",
+                    "get",
+                    "delete",
+                    "update",
+                    "create",
+                    "module"
+                ],
+                "domain-slds": [
+                    "create",
+                    "list",
+                    "delete",
+                    "update",
+                    "get",
+                    "module"
+                ],
+                "domain-subordinatedns": [
+                    "list",
+                    "create",
+                    "delete",
+                    "get",
+                    "update",
+                    "module"
+                ],
+                "domain-states": [
+                    "list"
+                ],
+                "domain-contacttypes": [
+                    "list"
+                ],
+                "domain-owners": [
+                    "list"
+                ],
+                "domain-providers": [
+                    "list",
+                    "create",
+                    "update",
+                    "get",
+                    "delete",
+                    "module"
+                ],
+                "domain-reasons": [
+                    "delete",
+                    "create",
+                    "update",
+                    "list",
+                    "get",
+                    "module"
+                ],
+                "domain-logs": [
+                    "list",
+                    "get",
+                    "module"
+                ],
+                "domain-dnsrecordtypes": [
+                    "list"
+                ],
+                "domain-companies": [
+                    "list"
+                ],
+                "domain-domains": [
+                    "list",
+                    "delete",
+                    "get",
+                    "update",
+                    "create",
+                    "module"
+                ]
+            },
+            "module-cpanel": {
+                "cpanel-cpanels": [
+                    "list",
+                    "update",
+                    "create",
+                    "delete",
+                    "get",
+                    "module"
+                ],
+                "cpanel-accounts": [
+                    "list",
+                    "update",
+                    "create",
+                    "delete",
+                    "get",
+                    "module"
+                ],
+                "cpanel-owners": [
+                    "create",
+                    "update",
+                    "delete",
+                    "list",
+                    "get"
+                ],
+                "cpanel-logs": [
+                    "list",
+                    "module"
+                ],
+                "cpanel-indicators": [
+                    "get",
+                    "list",
+                    "module"
+                ],
+                "cpanel-packages": [
+                    "list",
+                    "update",
+                    "create",
+                    "delete",
+                    "get",
+                    "module"
+                ],
+                "cpanel-clusters": [
+                    "update",
+                    "delete",
+                    "create",
+                    "get",
+                    "list",
+                    "module"
+                ],
+                "cpanel-status": [
+                    "update",
+                    "delete",
+                    "get",
+                    "create",
+                    "list"
+                ],
+                "cpanel-reasons": [
+                    "delete",
+                    "update",
+                    "get",
+                    "list",
+                    "create"
+                ],
+                "cpanel-states": [
+                    "get",
+                    "delete",
+                    "update",
+                    "list",
+                    "create"
+                ]
+            }
+        },
+        "user": {
+            "username": "admin",
+            "status": "validated",
+            "firstName": "Administrador",
+            "lastName": "Backoffice",
+            "email": "admin@rcp.pe",
+            "id": "af3f7694-7e7e-4b24-b5e3-31bfa5e91cd8"
+        },
+        "exp": 1531942386,
+        "iat": 1531855986
+    },
+    "success": "Validation Success"
+}

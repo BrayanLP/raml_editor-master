@@ -1,0 +1,139 @@
+{
+    "results": [
+        {
+            "updated": "2017-10-31T10:17:44Z",
+            "name": "Configuración",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": false,
+            "id": "8fa38095-3d24-4f07-bc7c-b15c52944c7b",
+            "visible": false,
+            "state": "reports.companies",
+            "parentId": "4e49476f-f8d5-4aed-964d-b441d1607ca9",
+            "slug": "report-companies",
+            "icon": null
+        },
+        {
+            "updated": "2017-11-21T15:45:02Z",
+            "name": "Comprobantes",
+            "created": "2018-07-17T14:54:34Z",
+            "section": "Administración y Comercial",
+            "enabled": true,
+            "id": "216ad297-6f97-42b8-bb8d-def38f13a8f2",
+            "visible": true,
+            "state": "billing.voucher-list",
+            "parentId": "60602243-e299-4b81-ba12-844aa5d99f03",
+            "slug": "billing-paymentdocs",
+            "icon": null
+        },
+        {
+            "updated": "2017-12-12T16:33:51Z",
+            "name": "Notas de débito",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": true,
+            "id": "9a00ff34-7274-4f75-9306-7a9c457648da",
+            "visible": true,
+            "state": "billing.debitnote-list",
+            "parentId": "60602243-e299-4b81-ba12-844aa5d99f03",
+            "slug": "billing-debitnotes",
+            "icon": null
+        },
+        {
+            "updated": "2017-11-15T09:44:46Z",
+            "name": "Borrar",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": false,
+            "id": "0e5aff0a-4c39-41ce-8667-1b854cb83e29",
+            "visible": false,
+            "state": "general.currency-list",
+            "parentId": "7fbd1927-f482-40ce-9d72-5f9dfacb1892",
+            "slug": "catalog-currencies",
+            "icon": null
+        },
+        {
+            "updated": "2017-11-06T17:58:04Z",
+            "name": "Paquetes",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": true,
+            "id": "06882840-803d-4872-8c93-dfe291a334eb",
+            "visible": true,
+            "state": "marketing.package-list",
+            "parentId": "8eb769ba-bebb-48f8-b094-1945373d8246",
+            "slug": "marketing-packages",
+            "icon": null
+        },
+        {
+            "updated": "2017-11-14T17:57:19Z",
+            "name": "Suscripciones",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": true,
+            "id": "835a2db0-61e5-4b76-a442-bbf82fa22b33",
+            "visible": true,
+            "state": "sales.subscription-list",
+            "parentId": "a20cee3a-fc21-439a-894e-3da2b2aaef13",
+            "slug": "sales-subscriptions",
+            "icon": null
+        },
+        {
+            "updated": "2017-09-20T10:23:09Z",
+            "name": "Clientes",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": true,
+            "id": "741e03c2-04f6-49af-ab19-9071cef81219",
+            "visible": true,
+            "state": "sales.customer-list",
+            "parentId": "a20cee3a-fc21-439a-894e-3da2b2aaef13",
+            "slug": "sales-customers",
+            "icon": null
+        },
+        {
+            "updated": "2017-10-31T10:13:36Z",
+            "name": "Canales",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": false,
+            "id": "364f943f-1ffe-42e2-b615-a7430334bd2e",
+            "visible": false,
+            "state": "products.channel-list",
+            "parentId": "8eb769ba-bebb-48f8-b094-1945373d8246",
+            "slug": "products-channels",
+            "icon": null
+        },
+        {
+            "updated": "2017-10-31T10:08:18Z",
+            "name": "Transacciones",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": false,
+            "id": "d5d7396b-8838-46c2-b3f2-2b138fddd3aa",
+            "visible": false,
+            "state": "payments.transaction-list({'id': 'todos'})",
+            "parentId": "356168a7-d320-4386-af83-18726a4e66bc",
+            "slug": "payment-transactions",
+            "icon": null
+        },
+        {
+            "updated": "2017-10-31T10:08:08Z",
+            "name": "País",
+            "created": "2018-07-17T14:54:34Z",
+            "section": null,
+            "enabled": false,
+            "id": "07069035-7daf-47cf-be5a-3072f3df5f30",
+            "visible": false,
+            "state": "payments.country-list",
+            "parentId": "356168a7-d320-4386-af83-18726a4e66bc",
+            "slug": "payment-countries",
+            "icon": null
+        }
+    ],
+    "metadata": {
+        "count": 124,
+        "limit": 10,
+        "offset": 0
+    }
+}

@@ -1,0 +1,428 @@
+#%RAML 0.8
+  title: Security Backoffice
+  version: v1
+  baseUri: http://security-backoffice.yachay.pe
+
+ 
+  documentation:
+  - title: Introducción Funcional
+    content: | 
+
+  - title: Esquema de Archivos
+    content: | 
+  - title: Documentación de workers
+    content: | 
+  - title: Documentación de controladores
+    content: |  
+
+  /api/v1/modules:
+    displayName: Módulos
+    get:
+      description: Lista a todos los módulos.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include samples/modules/modules-get.sample
+
+    post:
+      description: Crea un nuevo módulo.
+      body:
+        application/json:
+          example: !include samples/modules/modules-post-input.sample
+      responses:
+       200:
+        body:
+          application/json:
+            example: !include samples/modules/modules-post-output.sample
+
+    /{modules_id}:
+      get:
+        description: Listas a un módulo por ID.
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/modules/modules-item-get.sample
+      put:
+        description: Edita a un módulo por ID.
+        body:
+          application/json:
+            example: !include samples/modules/modules-item-put-input.sample
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/modules/modules-item-put-output.sample
+
+      delete:
+        description: Edita un módulo por ID
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/modules/modules-item-delete.sample
+
+
+
+
+  /api/v1/permissions:
+    displayName: Permisos
+    get:
+      description: Lista a todos los Permisos.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include samples/permissions/permissions-get.sample
+
+    post:
+      description: Crea un nuevo permisos.
+      body:
+        application/json:
+          example: !include samples/permissions/permissions-post-input.sample
+      responses:
+       200:
+        body:
+          application/json:
+            example: !include samples/permissions/permissions-post-output.sample
+
+    /{permissions_id}:
+      get:
+        description: Listas a un permisos por ID.
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/permissions/permissions-item-get.sample
+      put:
+        description: Edita a un permisos por ID.
+        body:
+          application/json:
+            example: !include samples/permissions/permissions-item-put-input.sample
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/permissions/permissions-item-put-output.sample
+
+      delete:
+        description: Edita un permisos por ID
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/permissions/permissions-item-delete.sample
+
+
+  /api/v1/verify_token:
+    displayName: Verificar Token
+    get:
+      description: Lista a todos los verificar token.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include samples/verify_token/verify_token-get.sample
+
+ 
+
+  /api/v1/roles:
+    displayName: Roles
+    get:
+      description: Lista a todos los roles.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include samples/roles/roles-get.sample
+
+    post:
+      description: Crea un nuevo roles.
+      body:
+        application/json:
+          example: !include samples/roles/roles-post-input.sample
+      responses:
+       200:
+        body:
+          application/json:
+            example: !include samples/roles/roles-post-output.sample
+
+    /{roles_id}:
+      get:
+        description: Listas a un roles por ID.
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/roles/roles-item-get.sample
+      put:
+        description: Edita a un roles por ID.
+        body:
+          application/json:
+            example: !include samples/roles/roles-item-put-input.sample
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/roles/roles-item-put-output.sample
+
+      delete:
+        description: Edita un roles por ID
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/roles/roles-item-delete.sample
+      /permissions:
+        displayName: Permiso al rol
+        get:
+          description: Lista a todos los permiso al rol.
+          responses:
+            200:
+              body:
+                application/json:
+                  example: !include samples/roles/permissions/permissions-get.sample
+
+        post:
+          description: Crea un nuevo permiso al rol.
+          body:
+            application/json:
+              example: !include samples/roles/permissions/permissions-post-input.sample
+          responses:
+            200:
+              body:
+                application/json:
+                  example: !include samples/roles/permissions/permissions-post-output.sample
+
+        /{permissions_id}:
+          get:
+            description: Listas a un permiso por ID al rol.
+            responses:
+              200:
+                body:
+                  application/json:
+                    example: !include samples/roles/permissions/permissions-item-get.sample
+          put:
+            description: Edita a un permiso por ID al rol.
+            body:
+              application/json:
+                example: !include samples/roles/permissions/permissions-item-put-input.sample
+            responses:
+              200:
+                body:
+                  application/json:
+                    example: !include samples/roles/permissions/permissions-item-put-output.sample
+
+          delete:
+            description: Edita un permiso por ID al rol
+            responses:
+              200:
+                body:
+                  application/json:
+                    example: !include samples/roles/permissions/permissions-item-delete.sample
+
+
+  /api/v1/change_password:
+    displayName: Cambiar Contraseña 
+
+    /{change_password_id}:
+      put:
+        description: Edita a un cambiar contraseña por ID.
+        body:
+          application/json:
+            example: !include samples/change_password/change_password-item-put-input.sample
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/change_password/change_password-item-put-output.sample
+
+ 
+
+
+  /api/v1/access_token:
+    displayName: Token de Acceso
+     
+    post:
+      description: Crea un nuevo token de acceso.
+      body:
+        application/json:
+          example: !include samples/access_token/access_token-post-input.sample
+      responses:
+       200:
+        body:
+          application/json:
+            example: !include samples/access_token/access_token-post-output.sample
+
+
+  /api/v1/logout:
+    displayName: Cerrar Sesion
+     
+    post:
+      description: Crea un nuevo cerrar sesion.
+      body:
+        application/json:
+          example: !include samples/logout/logout-post-input.sample
+      responses:
+       200:
+        body:
+          application/json:
+            example: !include samples/logout/logout-post-output.sample
+ 
+  /api/v1/users:
+    displayName: usuarios
+    get:
+      description: Lista a todos los usuarios.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include samples/users/users-get.sample
+
+    post:
+      description: Crea un nuevo usuario.
+      body:
+        application/json:
+          example: !include samples/users/users-post-input.sample
+      responses:
+       200:
+        body:
+          application/json:
+            example: !include samples/users/users-post-output.sample
+
+    /{user_id}:
+      get:
+        description: Listas a un usuario por ID.
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/users/users-item-get.sample
+      put:
+        description: Edita a un usuario por ID.
+        body:
+          application/json:
+            example: !include samples/users/users-item-put-input.sample
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/users/users-item-put-output.sample
+
+      delete:
+        description: Edita un usuario por ID
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/users/users-item-delete.sample
+
+  /api/v1/actions:
+    displayName: Acciones
+    description: Obtiene el listado general de acciones y permite registrar nuevas
+    get:
+      description: Lista a todos los actiones.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include samples/actions/actions-get.sample
+
+    post:
+      description: Crea un nuevo acción.
+      body:
+        application/json:
+          example: !include samples/actions/actions-post-input.sample
+      responses:
+       200:
+        body:
+          application/json:
+            example: !include samples/actions/actions-post-output.sample
+
+    /{action_id}:
+      get:
+        description: Listas a un acción por ID.
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/actions/actions-item-get.sample
+      put:
+        description: Edita a un acción por ID.
+        body:
+          application/json:
+            example: !include samples/actions/actions-item-put-input.sample
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/actions/actions-item-put-output.sample
+
+      delete:
+        description: Edita un acción por ID
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/actions/actions-item-delete.sample
+
+
+  /api/v1/menumodules:
+    displayName: Módulos de Menu 
+    get:
+      description: Lista a todos los modulos menu.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include samples/menumodules/menumodules-get.sample 
+  
+  /api/v1/positions:
+    displayName: Posiciones
+    get:
+      description: Lista a todos los posiciones.
+      responses:
+        200:
+          body:
+            application/json:
+              example: !include samples/positions/positions-get.sample
+
+    post:
+      description: Crea un nuevo módulo.
+      body:
+        application/json:
+          example: !include samples/positions/positions-post-input.sample
+      responses:
+       200:
+        body:
+          application/json:
+            example: !include samples/positions/positions-post-output.sample
+
+    /{positions_id}:
+      get:
+        description: Listas a un módulo por ID.
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/positions/positions-item-get.sample
+      put:
+        description: Edita a un módulo por ID.
+        body:
+          application/json:
+            example: !include samples/positions/positions-item-put-input.sample
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/positions/positions-item-put-output.sample
+
+      delete:
+        description: Edita un módulo por ID
+        responses:
+          200:
+            body:
+              application/json:
+                example: !include samples/positions/positions-item-delete.sample
+

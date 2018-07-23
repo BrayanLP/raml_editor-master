@@ -1,0 +1,99 @@
+{
+    "results": [
+        {
+            "updated": "2017-08-29T09:48:47Z",
+            "description": null,
+            "name": "Desarrollador",
+            "parentId": "6cbcc800-0a14-4689-8496-9135795ef9e2",
+            "created": "2018-07-17T14:54:45Z",
+            "slug": "developer",
+            "id": "ccb77f8d-9c44-402a-901e-b63a901fa0ab"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Administrador de Backoffice",
+            "parentId": null,
+            "created": "2018-07-17T14:54:45Z",
+            "slug": "backoffice-admin",
+            "id": "bf772968-55dc-41d7-9cc2-34d73ddd543f"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Jefe de sistemas",
+            "parentId": null,
+            "created": "2018-07-17T14:54:45Z",
+            "slug": "system-lead",
+            "id": "6cbcc800-0a14-4689-8496-9135795ef9e2"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Emisor Efact",
+            "parentId": null,
+            "created": "2017-12-04T15:17:43Z",
+            "slug": "electronic-invoicer",
+            "id": "13f8d145-34b2-4ce6-b050-76808722b3e2"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Consultor de cpanel",
+            "parentId": "66bd67ce-1d9c-4c52-902d-12886f88e913",
+            "created": "2017-11-30T12:45:27Z",
+            "slug": "cpanel-view",
+            "id": "c8240925-6987-4390-b7d8-15354547246e"
+        },
+        {
+            "updated": "2017-12-27T11:41:00Z",
+            "description": null,
+            "name": "Gerente de ingeniería",
+            "parentId": null,
+            "created": "2017-11-14T15:30:38Z",
+            "slug": "gerente-ingenieria",
+            "id": "66bd67ce-1d9c-4c52-902d-12886f88e913"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Analista de Marketing",
+            "parentId": "91653a31-b021-47d4-84e3-09ab71a9eaa4",
+            "created": "2017-11-10T12:51:56Z",
+            "slug": "analista-marketing",
+            "id": "557e4ce2-c666-43ce-8356-fbe6fd39df15"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Gerente de marketing y Comunicaciones",
+            "parentId": null,
+            "created": "2017-11-10T12:50:39Z",
+            "slug": "gerente-marketing",
+            "id": "91653a31-b021-47d4-84e3-09ab71a9eaa4"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Analista Inteligencia de mercado",
+            "parentId": "83f214c8-d4af-433b-a595-ffecc6b428e3",
+            "created": "2017-11-10T12:48:36Z",
+            "slug": "analista-inteligencia-mercado",
+            "id": "fb003e18-4e98-4443-bc12-dad49e07b9f6"
+        },
+        {
+            "updated": null,
+            "description": null,
+            "name": "Analista Planeamiento Estratégico",
+            "parentId": "83f214c8-d4af-433b-a595-ffecc6b428e3",
+            "created": "2017-11-10T12:48:07Z",
+            "slug": "analista-planeamiento-estrategico",
+            "id": "985a03e9-8780-4635-909e-30b1d1aba427"
+        }
+    ],
+    "metadata": {
+        "count": 13,
+        "limit": 10,
+        "offset": 0
+    }
+}

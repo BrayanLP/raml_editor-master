@@ -1,0 +1,13 @@
+{
+	"updated": "2017-10-31T10:17:44Z",
+	"name": "Configuración",
+	"created": "2018-07-17T14:54:34Z",
+	"section": null,
+	"enabled": false,
+	"id": "8fa38095-3d24-4f07-bc7c-b15c52944c7b",
+	"visible": false,
+	"state": "reports.companies",
+	"parentId": "4e49476f-f8d5-4aed-964d-b441d1607ca9",
+	"slug": "report-companies",
+	"icon": null
+}

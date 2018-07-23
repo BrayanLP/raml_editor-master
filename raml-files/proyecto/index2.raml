@@ -1,0 +1,14 @@
+#%RAML 0.8
+  title: My API With Types
+  version: v1
+  baseUri: http://security-backoffice.yachay.pe
+  
+  types:
+    Phone:
+      type: object
+      properties:
+        manufacturer:
+          type: string
+        numberOfSIMCards:
+          type: number
+        kind: string 

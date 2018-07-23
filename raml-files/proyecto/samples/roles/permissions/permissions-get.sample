@@ -1,0 +1,59 @@
+{
+    "results": [
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "cb3600eb-a167-4edf-8364-401de9e93225",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "4a0b1398-717b-42a5-8376-eba9f9429ac3",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "bb38276c-2f2e-4757-b1bf-262755ab71ea",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "14a885c3-1cac-45d1-ab7e-0dacc58eb18d",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "04a2f4b0-64af-41a1-b0c2-5f1f090b170a",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "1f530326-2da3-4326-842a-a3efbc2b707d",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "35b85588-6085-498c-bd3f-675a7be1357f",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "5284c082-416f-41b5-bcb9-e08e4ddd87cf",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "4f6c1a02-9e1e-4ef5-9046-db63ea6e31a0",
+            "created": null
+        },
+        {
+            "roleId": "9dc6ccae-51ca-47ea-8c51-b6e1d652be2e",
+            "permissionId": "7f4a52eb-c9b4-47e0-b762-0915ba03398e",
+            "created": null
+        }
+    ],
+    "metadata": {
+        "count": 252,
+        "limit": 10,
+        "offset": 0
+    }
+}

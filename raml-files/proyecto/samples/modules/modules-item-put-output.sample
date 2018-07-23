@@ -1,0 +1,13 @@
+{
+    "updated": "2018-07-17T17:03:12Z",
+    "name": "Módulo de Prueba 2",
+    "created": "2018-07-17T14:54:34Z",
+    "section": null,
+    "enabled": false,
+    "id": "4e15d351-73f2-4ce8-bba5-a2eb2c6d72e3",
+    "visible": false,
+    "state": "reports.companies",
+    "parentId": "4e49476f-f8d5-4aed-964d-b441d1607ca9",
+    "slug": "report-prueba2",
+    "icon": null
+}
